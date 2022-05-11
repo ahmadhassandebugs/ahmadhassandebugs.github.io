@@ -1,47 +1,31 @@
-"Feng":
-  - firstname: ["Feng", "Qian", "Feng Qian", "Qian, Feng"]
+"Qian":
+  - firstname: ["Feng", "F."]
     url: https://www-users.cse.umn.edu/~fengqian/index.html
 
-"Zhi-Li":
-  - firstname: ["Zhi-Li Zhang"]
+"Zhang":
+  - firstname: ["Zhi-Li", "Z."]
     url: https://www-users.cse.umn.edu/~zhang089/
 
-"Shuowei":
-  - firstname: ["Shuowei Jin"]
-    url: https://web.eecs.umich.edu/~zmao/
-
-"Arvind": 
-  - firstname: ["Arvind Narayanan"]
+"*Narayanan": 
+  - firstname: ["Arvind", "A."]
     url: https://www-users.cse.umn.edu/~naray111/
 
-"Ruiyang":
-  - firstname: ["Ruiyang Zhu"]
+"Narayanan": 
+  - firstname: ["Arvind", "A."]
+    url: https://www-users.cse.umn.edu/~naray111/
+
+"Zhu":
+  - firstname: ["Ruiyang"]
     url: https://ry4nzhu.github.io/
 
-"Wei":
-  - firstname: ["Wei Ye"]
-    url: 
-
-"Jason":
-  - firstname: ["Jason Carpenter"]
-    url: 
-
-"Rochman":
-  - firstname: ["Muhammad Rochman"]
-    url: 
-
-"Vanlin":
-  - firstname: ["Vanlin Sathya"]
-    url: 
-
-"Monisha":
-  - firstname: ["Monisha Ghosh"]
-    url: 
-
-"Morley":
-  - firstname: ["Z. Morley Mao"]
+"Mao":
+  - firstname: ["Zhuoqing Morley", "Z. Morley"]
     url: https://web.eecs.umich.edu/~zmao/
 
-"Xumiao":
-  - firstname: ["Xumiao Zhang"]
+"*Zhang":
+  - firstname: ["Xumiao", "X."]
+    url: https://web.eecs.umich.edu/~xumiao/
+
+"Zhang":
+  - firstname: ["Xumiao", "X."]
     url: https://web.eecs.umich.edu/~xumiao/
