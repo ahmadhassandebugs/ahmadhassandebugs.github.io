@@ -1,18 +1,47 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Feng":
+  - firstname: ["Feng", "Qian", "Feng Qian", "Qian, Feng"]
+    url: https://www-users.cse.umn.edu/~fengqian/index.html
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Zhi-Li":
+  - firstname: ["Zhi-Li Zhang"]
+    url: https://www-users.cse.umn.edu/~zhang089/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Shuowei":
+  - firstname: ["Shuowei Jin"]
+    url: https://web.eecs.umich.edu/~zmao/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Arvind": 
+  - firstname: ["Arvind Narayanan"]
+    url: https://www-users.cse.umn.edu/~naray111/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Ruiyang":
+  - firstname: ["Ruiyang Zhu"]
+    url: https://ry4nzhu.github.io/
+
+"Wei":
+  - firstname: ["Wei Ye"]
+    url: 
+
+"Jason":
+  - firstname: ["Jason Carpenter"]
+    url: 
+
+"Rochman":
+  - firstname: ["Muhammad Rochman"]
+    url: 
+
+"Vanlin":
+  - firstname: ["Vanlin Sathya"]
+    url: 
+
+"Monisha":
+  - firstname: ["Monisha Ghosh"]
+    url: 
+
+"Morley":
+  - firstname: ["Z. Morley Mao"]
+    url: https://web.eecs.umich.edu/~zmao/
+
+"Xumiao":
+  - firstname: ["Xumiao Zhang"]
+    url: https://web.eecs.umich.edu/~xumiao/
