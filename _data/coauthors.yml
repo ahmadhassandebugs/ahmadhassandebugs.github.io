@@ -3,7 +3,7 @@
     url: https://www-users.cse.umn.edu/~fengqian/index.html
 
 "Zhang":
-  - firstname: ["Zhi-Li", "Z."]
+  - firstname: ["Zhi-Li"]
     url: https://www-users.cse.umn.edu/~zhang089/
 
 "*Narayanan": 
@@ -26,6 +26,6 @@
   - firstname: ["Xumiao", "X."]
     url: https://web.eecs.umich.edu/~xumiao/
 
-"Zhang":
-  - firstname: ["Xumiao", "X."]
-    url: https://web.eecs.umich.edu/~xumiao/
+# "Zhang":
+#   - firstname: ["Xumiao", "X."]
+#     url: https://web.eecs.umich.edu/~xumiao/
