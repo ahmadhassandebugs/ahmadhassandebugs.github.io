@@ -6,7 +6,7 @@ description: classes, workshops, and teaching materials
 nav: true
 ---
 
-#### TA jobs
+#### TA Jobs
 
 - Operating Systems - 2021
 - Topics in Internet Research - 2020

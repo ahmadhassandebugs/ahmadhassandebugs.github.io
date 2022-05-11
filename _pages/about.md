@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>2nd year Ph.D. Student</b> in Computer Science @ <a href='https://twin-cities.umn.edu/'>UMN</a>
+subtitle: <strong>2nd year Ph.D. Student</strong> in Computer Science @ <a href='https://twin-cities.umn.edu/'>UMN</a>
 
 profile:
   align: right
