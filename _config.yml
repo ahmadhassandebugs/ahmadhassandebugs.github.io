@@ -56,8 +56,8 @@ github_username: ahmadhassan997 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: hassan___ahmad # your Twitter handle
 linkedin_username: ahmadhassanumn # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+scholar_userid: dGhFQesAAAAJ&hl # your Google Scholar ID
+orcid_id: 0000-0002-7886-7531 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -72,7 +72,8 @@ stackoverflow_id: #your stackoverflow id
 contact_note: >
   Please reach out using the email.
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
+ga4_analytics: G-ZS6VG9M0Y1 # This is your GA4 measurement ID
+google_analytics: # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
@@ -258,7 +259,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
