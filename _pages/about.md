@@ -6,7 +6,7 @@ subtitle: <strong>2nd year Ph.D. Student</strong> in Computer Science @ <a href=
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: profile_pic_2.jpg
   address: >
     <p>4-204 Keller Hall</p>
     <p>200 Union Street SE</p>
