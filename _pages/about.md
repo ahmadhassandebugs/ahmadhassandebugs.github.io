@@ -21,4 +21,6 @@ Hey, thanks for stopping by! 👋
 
 I am a second-year Ph.D. student in the [Computer Science and Engineering](https://cse.umn.edu/cs) department at the [University of Minnesota, Twin Cities](https://twin-cities.umn.edu/). I am fortunate enough to be advised by Prof. [Feng Qian](https://www-users.cse.umn.edu/~fengqian/index.html). My​ research interests include Mobile Systems, 5G Mobile Networking, and Networked VR/MR. My current research highlights challenges faced by today's 4G/5G applications and argues for a cross-layer design to overcome these challenges. I have a strong background in system/network engineering and I am skilled in C++, C, Java, and Python programming.
 
-In my spare time, I enjoy watching sports (mostly soccer, cricket, F1, and chess) and working out.
+<!-- In my spare time, I enjoy watching sports (mostly soccer, cricket, F1, and chess) and working out. -->
+
+Previously, I was an undergrduate student at the [Lahore University of Management Sciences](https://lums.edu.pk/) majoring in Computer Science, where I had a great time studying cellular networks and congestion control under the supervision of Prof. [Zafar Ayyub Qazi](https://web.lums.edu.pk/~zafar/). 
