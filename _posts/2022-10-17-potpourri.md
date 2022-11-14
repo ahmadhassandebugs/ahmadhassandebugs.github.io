@@ -17,3 +17,8 @@ categories: advice
 <ul>
     <li><a href="https://www.read.seas.harvard.edu/~kohler/latex.html">LaTeX usage tips </a>(dashes, dots, space, etc.) From Eddie Kohler</li>
 </ul>
+
+#### Useful resources
+<ul>
+    <li><a href="https://www.alibabacloud.com/help/en/simple-application-server/latest/use-vnc-to-build-guis-on-ubuntu-18-04-and-20-04">Set up GUI/VNC on remote Linux server</li>
+</ul>
