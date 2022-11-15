@@ -20,5 +20,5 @@ categories: advice
 
 #### Useful resources
 <ul>
-    <li><a href="https://www.alibabacloud.com/help/en/simple-application-server/latest/use-vnc-to-build-guis-on-ubuntu-18-04-and-20-04">Set up GUI/VNC on remote Linux server</li>
+    <li><a href="https://www.alibabacloud.com/help/en/simple-application-server/latest/use-vnc-to-build-guis-on-ubuntu-18-04-and-20-04"> Set up GUI/VNC on remote Linux server </a></li>
 </ul>
