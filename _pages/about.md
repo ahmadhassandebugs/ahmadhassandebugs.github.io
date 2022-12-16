@@ -22,7 +22,7 @@ I am a second-year Ph.D. student in the [Computer Science and Engineering](https
 
 <!-- In my spare time, I enjoy watching sports (mostly soccer, cricket, F1, and chess) and working out. -->
 
-Previously, I was an undergrduate student at the [Lahore University of Management Sciences](https://lums.edu.pk/) majoring in Computer Science, where I had a great time studying cellular networks and congestion control under the supervision of Prof. [Zafar Ayyub Qazi](https://web.lums.edu.pk/~zafar/). 
+Since I joined UMN, I have been working closely with Prof. [Zhi-Li Zhang](https://www-users.cse.umn.edu/~zhang089/) and Prof. [Z. Morley Mao](https://web.eecs.umich.edu/~zmao/). Previously, I was an undergrduate student at the [Lahore University of Management Sciences](https://lums.edu.pk/) majoring in Computer Science, where I had a great time studying cellular networks and congestion control under the supervision of Prof. [Zafar Ayyub Qazi](https://web.lums.edu.pk/~zafar/). 
 
 
 <!-- <span style="color:red;font-style:italic;"> \*** I am looking for summer 2023 internships. Please reach out at hassa654@umn.edu \*** </span> -->
