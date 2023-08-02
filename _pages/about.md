@@ -2,27 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>3rd year Ph.D. Student</strong> in Computer Science @ <a href='https://twin-cities.umn.edu/'>UMN</a>
+subtitle: <strong>Ph.D. Student</strong> in ECE @ <a href='https://viterbischool.usc.edu/'>USC</a>
 
 profile:
   align: right
-  image: profile_pic_2.jpg
+  image: profile_pic.jpg
   address: >
-    <p>4-204 Keller Hall</p>
-    <p>200 Union Street SE</p>
-    <p>Minneapolis, MN 55455</p>
+    <p>TBD</p>
+    <p>3650 McClintock Ave</p>
+    <p>Los Angeles, CA 90089</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a third-year Ph.D. student in the [Computer Science and Engineering](https://cse.umn.edu/cs) department at the [University of Minnesota, Twin Cities](https://twin-cities.umn.edu/). I am fortunate enough to be advised by Prof. [Feng Qian](https://www-users.cse.umn.edu/~fengqian/index.html). Topics that intrigue me include, but are not limited to, Mobile Systems, 5G Mobile Networking, and Networked VR/MR. My current research highlights challenges faced by today's 4G/5G applications and argues for a cross-layer design to overcome these challenges. 
+I am a Ph.D. student in the [Electrical & Computer Engineering](https://minghsiehece.usc.edu/) department at the [University of Southern California](https://www.usc.edu/). I am fortunate enough to be advised by Prof. [Feng Qian](https://www-users.cse.umn.edu/~fengqian/index.html). Topics that intrigue me include, but are not limited to, Mobile Systems, 5G Mobile Networking, and Networked VR/MR. My current research highlights challenges faced by today's 4G/5G applications and argues for a cross-layer design to overcome these challenges. 
 <!-- I have a strong background in system/network engineering and I am skilled in C++, C, Java, and Python programming. -->
 
 <!-- In my spare time, I enjoy watching sports (mostly cricket, soccer, football, F1, and chess) and working out. -->
 
-Since I joined UMN, I have been working closely with Prof. [Zhi-Li Zhang](https://www-users.cse.umn.edu/~zhang089/) and Prof. [Z. Morley Mao](https://web.eecs.umich.edu/~zmao/). Previously, I was an undergrduate student at the [Lahore University of Management Sciences](https://lums.edu.pk/) majoring in Computer Science, where I had a great time studying cellular networks and congestion control under the supervision of Prof. [Zafar Ayyub Qazi](https://web.lums.edu.pk/~zafar/). 
+Since the last few years, I have been working closely with Prof. [Zhi-Li Zhang](https://www-users.cse.umn.edu/~zhang089/) and Prof. [Z. Morley Mao](https://web.eecs.umich.edu/~zmao/). Previously, I was an undergrduate student at the [Lahore University of Management Sciences](https://lums.edu.pk/) majoring in Computer Science, where I had a great time studying cellular networks and congestion control under the supervision of Prof. [Zafar Ayyub Qazi](https://web.lums.edu.pk/~zafar/). 
 
 
 <!-- <span style="color:red;font-style:italic;"> \*** I am looking for summer 2023 internships. Please reach out at hassa654@umn.edu \*** </span> -->

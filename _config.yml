@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ahmad
 middle_name: 
 last_name: Hassan
-email: hassa654@umn.edu
+email: ahmadhas@usc.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   personal webiste
 footer_text: >
@@ -54,7 +54,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: ahmadhassandebugs # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: hassan___ahmad # your Twitter handle
+twitter_username: ahassandebugs # your Twitter handle
 linkedin_username: ahmadhassanumn # your LinkedIn user name
 scholar_userid: dGhFQesAAAAJ&hl # your Google Scholar ID
 orcid_id: 0000-0002-7886-7531 # your ORCID ID
