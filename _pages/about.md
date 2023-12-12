@@ -8,7 +8,7 @@ profile:
   align: right
   image: profile_pic.jpg
   address: >
-    <p>TBD</p>
+    <p>EEB 228</p>
     <p>3650 McClintock Ave</p>
     <p>Los Angeles, CA 90089</p>
 
