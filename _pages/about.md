@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in the [Electrical & Computer Engineering](https://minghsiehece.usc.edu/) department at the [University of Southern California](https://www.usc.edu/). I am fortunate enough to be advised by Prof. [Feng Qian](https://www-users.cse.umn.edu/~fengqian/index.html). Topics that intrigue me include, but are not limited to, Mobile Systems, 5G Mobile Networking, and Networked VR/MR. My current research highlights challenges faced by today's 4G/5G applications and argues for a cross-layer design to overcome these challenges. 
+I am a Ph.D. student in the [Electrical & Computer Engineering](https://minghsiehece.usc.edu/) department at the [University of Southern California](https://www.usc.edu/). I am fortunate enough to be advised by Prof. [Feng Qian](https://www-users.cse.umn.edu/~fengqian/index.html). Topics that intrigue me include, but are not limited to, Mobile Systems, ML for Systems, 5G Mobile Networking, Multimedia Systems, and Networked VR/MR. My current research highlights challenges faced by today's 4G/5G applications and argues for a cross-layer design to overcome these challenges. 
 <!-- I have a strong background in system/network engineering and I am skilled in C++, C, Java, and Python programming. -->
 
 <!-- In my spare time, I enjoy watching sports (mostly cricket, soccer, football, F1, and chess) and working out. -->
