@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ahmad  Hassan | blog</title>
+    <title>Ahmad  Hassan | projects</title>
     <meta name="author" content="Ahmad  Hassan" />
-    <meta name="description" content="personal webiste
-" />
+    <meta name="description" content="on-going and past projects" />
 
 
     <!-- Bootstrap & MDB -->
@@ -31,7 +30,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♞</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://ahmadhassandebugs.github.io/blog/">
+    <link rel="canonical" href="https://ahmadhassandebugs.github.io/projects/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -65,8 +64,8 @@
               </li>
 
               <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/projects/">projects<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">publications</a>
@@ -75,8 +74,8 @@
                 <a class="nav-link" href="/teaching/">teaching</a>
               </li>
               <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li>
               
               <!-- CV -->
@@ -84,8 +83,8 @@
                 <a class="nav-link" target="_blank" href="/assets/pdf/ahmad_hassan_cv.pdf">CV</a>
               </li>
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -98,67 +97,136 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1>Word Vomit</h1>
-    <h2>a bunch of thoughts you may be interested in</h2>
+          <header class="post-header">
+            <h1 class="post-title">projects</h1>
+            <p class="post-description">on-going and past projects</p>
+          </header>
+
+          <article>
+            <!-- pages/projects.md -->
+<div class="projects">
+<!-- Display projects without categories --><!-- Generate cards for each project -->
+  <div class="grid">
+    <!-- _includes/projects.html -->
+    <div class="grid-item">
+      <a href="https://github.com/SIGCOMM21-5G/artifact.git" target="_blank" rel="noopener noreferrer">
+        <div class="card hoverable">
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/5g-panel-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/5g-panel-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/5g-panel-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/5g-panel.jpg" alt="project thumbnail">
+
+  </picture>
+
+</figure>
+
+          <div class="card-body">
+            <h2 class="card-title">5G Measurement</h2>
+            <p class="card-text">An in-depth measurement study of the performance, power consumption, and application quality-of-experience (QoE) of commercial 5G networks in the wild</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- _includes/projects.html -->
+    <div class="grid-item">
+      <a href="https://5gbeams.umn.edu/" target="_blank" rel="noopener noreferrer">
+        <div class="card hoverable">
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/loop.gif-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/loop.gif-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/loop.gif-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/loop.gif" alt="project thumbnail">
+
+  </picture>
+
+</figure>
+
+          <div class="card-body">
+            <h2 class="card-title">5G mmWave Study</h2>
+            <p class="card-text">Detailed measurements of mmWave 5G deployments using smartphone-based tools that collect detailed measurements across several layers (PHY, MAC and up) such as beam-specific metrics</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- _includes/projects.html -->
+    <div class="grid-item">
+      <a href="https://github.com/SIGCOMM22-5GMobility/artifact" target="_blank" rel="noopener noreferrer">
+        <div class="card hoverable">
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/vr-image-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/vr-image-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/vr-image-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/vr-image.jpg" alt="project thumbnail">
+
+  </picture>
+
+</figure>
+
+          <div class="card-body">
+            <h2 class="card-title">5G Mobility Management</h2>
+            <p class="card-text">We answer 4 key questions in our paper. 1) what’s the the impact of mobility on application QoE? 2) do handovers cause excessive energy overhead? 3) what implication does 5G mobility has on cellular networks? 4) what can be done to reduce this performance degradation?</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- _includes/projects.html -->
+    <div class="grid-item">
+      <a href="/projects/4_project/">
+        <div class="card hoverable">
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/vr-image-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/vr-image-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/vr-image-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/vr-image.jpg" alt="project thumbnail">
+
+  </picture>
+
+</figure>
+
+          <div class="card-body">
+            <h2 class="card-title">Networked VR</h2>
+            <p class="card-text">A networked VR system based on 802.11ac and 802.11ad technologies that involves user location prediction, human pose estimation, radio keep-alive mechanisms, and other features to schedules VR content among ac and ad paths</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
   </div>
-
-
-  <ul class="post-list">
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3><a class="post-title" href="/blog/2022/potpourri/">Potpourri</a>
-      </h3>
-      <p>Helpful resources for PhD students from every corner of life</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        October 16, 2022
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2022">
-          <i class="fas fa-calendar fa-sm"></i> 2022 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/tag/advice">
-              <i class="fas fa-hashtag fa-sm"></i> advice</a> &nbsp;
-              
-            <a href="/blog/tag/misc">
-              <i class="fas fa-hashtag fa-sm"></i> misc</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/advice">
-              <i class="fas fa-tag fa-sm"></i> advice</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  
-
 </div>
+
+          </article>
+
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2024 Ahmad  Hassan. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+        © Copyright 2024 Ahmad  Hassan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
 
       </div>
     </footer>
