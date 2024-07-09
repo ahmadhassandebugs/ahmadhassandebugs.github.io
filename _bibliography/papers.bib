@@ -1,14 +1,123 @@
 ---
 ---
 
+@inproceedings {295677,
+author = {Anlan Zhang and Chendong Wang and Yuming Hu and Ahmad Hassan and Zejun Zhang and Bo Han and Feng Qian and Shichang Xu},
+title = {Habitus: Boosting Mobile Immersive Content Delivery through Full-body Pose Tracking and Multipath Networking},
+booktitle = {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
+year = {2024},
+isbn = {978-1-939133-39-7},
+address = {Santa Clara, CA},
+pages = {1677--1695},
+url = {https://www.usenix.org/conference/nsdi24/presentation/zhang-anlan},
+publisher = {USENIX Association},
+month = apr,
+
+abbr={NSDI},
+selected={true},
+bibtex_show={true},
+pdf={habitus_nsdi24.pdf}
+}
+
+@inproceedings{10.1145/3638550.3641132,
+author = {Hassan, Ahmad and Ye, Wei and Zhang, Anlan and Carpenter, Jason and Zhu, Ruiyang and Jin, Shuowei and Qian, Feng and Mao, Z. Morley and Zhang, Zhi-Li},
+title = {The Case for Boosting Mobile Application QoE via Smart Band Switching in 5G/xG Networks},
+year = {2024},
+isbn = {9798400704970},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3638550.3641132},
+doi = {10.1145/3638550.3641132},
+abstract = {5G and future 6G networks support diverse combinations of access technologies, architectures, and radio frequencies, with each combination termed as a "band" henceforth. Through comprehensive measurements in 12 cities across 5 countries, we experimentally show that operator-configured default bands are often highly sub-optimal, particularly under mobility. We then propose smart band switching, where a UE's band can be dynamically changed to improve the network performance and boost the application QoE. We discuss challenges, opportunities, and design choices for building a practical smart band switching system. We further develop preliminary UE-side band-switching logic on commodity smartphones, and evaluate it on commercial 5G networks.},
+booktitle = {Proceedings of the 25th International Workshop on Mobile Computing Systems and Applications},
+pages = {127–132},
+numpages = {6},
+keywords = {band switching, band selection, network measurement, mobile QoE, band, radio bands},
+location = {San Diego, CA, USA},
+series = {HOTMOBILE '24},
+
+abbr={HotMobile},
+selected={true},
+bibtex_show={true},
+pdf={bandswitching_hotmobile24.pdf}
+}
+
+@inproceedings{10.1145/3625468.3647610,
+author = {Jin, Shuowei and Zhu, Ruiyang and Hassan, Ahmad and Zhu, Xiao and Zhang, Xumiao and Mao, Z. Morley and Qian, Feng and Zhang, Zhi-Li},
+title = {OASIS: Collaborative Neural-Enhanced Mobile Video Streaming},
+year = {2024},
+isbn = {9798400704123},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3625468.3647610},
+doi = {10.1145/3625468.3647610},
+abstract = {Neural-enhanced video streaming (e.g., super-resolution) is an ongoing revolution which can provide extremely high-quality video streaming services breaking the restriction of bandwidth. However, such enhancements require intense computation power that is not affordable for a single mobile device, which hinders their real-world deployment. To address the limitation, we propose OASIS, the first system that facilitates multiple users in close proximity to execute intense neural-enhanced video streaming in realtime. To this end, OASIS intelligently distributes computation tasks among multiple mobile devices, selects appropriate video bitrates and super-resolution models, and optimizes video chunk delivery. As a result, the expensive neural-enhanced streaming is done through distributed collaboration, achieving optimal quality of experience (QoE). We implement and evaluate OASIS on commodity smartphones from different vendors, under various network and computation conditions. Extensive experiments demonstrate the high efficiency of OASIS: it improves the video streaming QoE by 40\%-200\% and reduces each participant's energy consumption by 60\% when the system scales up from a single device to six devices.},
+booktitle = {Proceedings of the 15th ACM Multimedia Systems Conference},
+pages = {45–55},
+numpages = {11},
+keywords = {Video streaming, deep neural networks, mobile computing, super-resolution},
+location = {Bari, Italy},
+series = {MMSys '24},
+
+abbr={MMSys},
+bibtex_show={true},
+pdf={oasis_mmsys24.pdf}
+}
+
+
+@inproceedings{10.1145/3618257.3625002,
+author = {Zhang, Xumiao and Jin, Shuowei and He, Yi and Hassan, Ahmad and Mao, Z. Morley and Qian, Feng and Zhang, Zhi-Li},
+title = {Poster: QUIC is not Quick Enough over Fast Internet},
+year = {2023},
+isbn = {9798400703829},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3618257.3625002},
+doi = {10.1145/3618257.3625002},
+abstract = {QUIC is a multiplexed transport-layer protocol over UDP and comes with enforced encryption. It is expected to be a game-changer in improving web application performance. Together with the network layer and layers below, UDP, QUIC, and HTTP/3 form a new protocol stack for future network communication, whose current counterpart is TCP, TLS, and HTTP/2. In this study, to understand QUIC's performance over high-speed networks and its potential to replace the TCP stack, we carry out a series of experiments to compare the UDP+QUIC+HTTP/3 (QUIC) stack and the TCP+TLS+HTTP/2 (HTTP/2) stack. Preliminary measurements on file download reveal that QUIC suffers from a data rate reduction compared to HTTP/2 across different hosts.},
+booktitle = {Proceedings of the 2023 ACM on Internet Measurement Conference},
+pages = {730–731},
+numpages = {2},
+keywords = {http/3, internet measurement, quic, transport protocol},
+location = {Montreal QC, Canada},
+series = {IMC '23},
+
+abbr={IMC},
+bibtex_show={true},
+pdf={quicposter_imc23.pdf}
+}
+
+
+@inproceedings{10.1145/3589334.3645323,
+author = {Zhang, Xumiao and Jin, Shuowei and He, Yi and Hassan, Ahmad and Mao, Z. Morley and Qian, Feng and Zhang, Zhi-Li},
+title = {QUIC is not Quick Enough over Fast Internet},
+year = {2024},
+isbn = {9798400701719},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3589334.3645323},
+doi = {10.1145/3589334.3645323},
+abstract = {QUIC is expected to be a game-changer in improving web application performance. In this paper, we conduct a systematic examination of QUIC's performance over high-speed networks. We find that over fast Internet, the UDP+QUIC+HTTP/3 stack suffers a data rate reduction of up to 45.2\% compared to the TCP+TLS+HTTP/2 counterpart. Moreover, the performance gap between QUIC and HTTP/2 grows as the underlying bandwidth increases. We observe this issue on lightweight data transfer clients and major web browsers (Chrome, Edge, Firefox, Opera), on different hosts (desktop, mobile), and over diverse networks (wired broadband, cellular). It affects not only file transfers, but also various applications such as video streaming (up to 9.8\% video bitrate reduction) and web browsing. Through rigorous packet trace analysis and kernel- and user-space profiling, we identify the root cause to be high receiver-side processing overhead, in particular, excessive data packets and QUIC's user-space ACKs. We make concrete recommendations for mitigating the observed performance issues.},
+booktitle = {Proceedings of the ACM on Web Conference 2024},
+pages = {2713–2722},
+numpages = {10},
+keywords = {http, network measurement, quic, transport, web performance},
+location = {Singapore, Singapore},
+series = {WWW '24},
+
+abbr={WWW},
+bibtex_show={true},
+pdf={quic_www24.pdf}
+}
+
 @inproceedings{fezeu2023latency,
 author={A. K. Fezeu, Rostand and Ramadan, Eman and Ye, Wei and Minneci, Bengamin and Xie, Jack and Narayanan, Arvind and Hassan, Ahmad and Qian, Feng and Zhang, Zhi-Li and Chandrashekar, Jaideep and Lee, Myungjin},  
 booktitle={Passive and Active Measurement},
 title={An In-Depth Measurement Analysis of 5G mmWave PHY Latency and its Impact on End-to-End Delay},
 year={2023},
 
-selected={true},
-abbr={PAM}
+abbr={PAM},
+pdf={5Gmmwavelatency_pam23.pdf}
 }
 
 @inproceedings{hassan2022vivisecting,
@@ -46,7 +155,6 @@ pages={800-809},
 doi={10.1109/INFOCOM48880.2022.9796693},
 abstract={5G-NR is beginning to be widely deployed in the mmWave frequencies in urban areas in the US and around the world. Due to the directional nature of mmWave signal propagation, improving performance of such deployments heavily relies on beam management and deployment configurations. We perform detailed measurements of mmWave 5G deployments by two major commercial 5G operators in the US in two diverse environments: an open field with a baseball park and a downtown urban canyon region, using smartphone-based tools that collect detailed measurements across several layers (PHY, MAC and up) such as beam-specific metrics like signal strength, beam switch times, and throughput per beam. Our measurement analysis shows that the parameters of the two deployments differ in a number of aspects: number of beams used, number of channels aggregated, and density of deployments, which reflect on the throughput performance. Our measurement-driven propagation analysis demonstrates that narrower beams experience a lower path-loss exponent than wider beams, which combined with up to eight frequency channels aggregated on up to eight beams can deliver a peak throughput of 1.2~Gbps at distances greater than 100m.},
 
-selected={true},
 bibtex_show={true},
 abbr={INFOCOM},
 website={https://5gbeams.umn.edu/},
