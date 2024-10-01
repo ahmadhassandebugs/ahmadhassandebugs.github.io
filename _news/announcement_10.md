@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-12-12 00:00:00-0100
+date: 2024-09-18 00:00:00-0100
 inline: true
 ---
 
-Our abstract on radio resource optimization has been accepted to HPE TechCon'24.
+Our work on 5G TDD Scheudling has been accepted to ACM CoNext 2024. Wait for details!
