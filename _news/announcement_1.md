@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-01-01 03:14:00-0100
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement.
+Our "QUIC is not Quick Enough over Fast Internet" paper led by [Xumiao](https://web.eecs.umich.edu/~xumiao/) was accepted to TheWebConf24 (previously WWW).

@@ -2,11 +2,14 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: classes, workshops, and teaching materials
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+#### TA Jobs
 
-Organize your courses by years, topics, or universities, however you like!
+- Operating Systems - 2021
+- Topics in Internet Research - 2020
+- Computer Vision - 2019
+- Calculus II - 2018

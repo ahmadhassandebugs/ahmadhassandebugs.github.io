@@ -1,34 +1,35 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Qian":
+  - firstname: ["Feng", "F."]
+    url: https://www-users.cse.umn.edu/~fengqian/index.html
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Zhang":
+  - firstname: ["Zhi-Li"]
+    url: https://www-users.cse.umn.edu/~zhang089/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"*Narayanan": 
+  - firstname: ["Arvind", "A."]
+    url: https://www-users.cse.umn.edu/~naray111/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Narayanan": 
+  - firstname: ["Arvind", "A."]
+    url: https://www-users.cse.umn.edu/~naray111/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Zhu":
+  - firstname: ["Ruiyang"]
+    url: https://ry4nzhu.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Mao":
+  - firstname: ["Zhuoqing Morley", "Z. Morley"]
+    url: https://web.eecs.umich.edu/~zmao/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"*Zhang":
+  - firstname: ["Xumiao", "X."]
+    url: https://web.eecs.umich.edu/~xumiao/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Jin":
+  - firstname: ["Shuowei", "S."]
+    url: https://shuoweijin.com/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+# "Zhang":
+#   - firstname: ["Xumiao", "X."]
+#     url: https://web.eecs.umich.edu/~xumiao/

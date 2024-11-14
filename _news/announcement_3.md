@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-05-07 11:38:00-0100
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+"Vivisecting Mobility Management in 5G Cellular Networks" has been accepted to [ACM SIGCOMM 2022](https://conferences.sigcomm.org/sigcomm/2022/cfp.html). More details are coming out soon!
