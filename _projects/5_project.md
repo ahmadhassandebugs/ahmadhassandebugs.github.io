@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Download Manager Privacy Policy
+title: Download Manager
 description: We've launched a Chrome extension to accurately estimate download times using various methods. Help us improve by installing our extension—we collect anonymized data to refine these estimations.
 img: assets/img/download_manager.png
 importance: 4
