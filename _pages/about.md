@@ -24,6 +24,3 @@ I am a Ph.D. student in the [Electrical & Computer Engineering](https://minghsie
 <!-- In my spare time, I enjoy watching sports (mostly cricket, soccer, football, F1, and chess) and working out. -->
 
 Since the last few years, I have been working closely with Prof. [Zhi-Li Zhang](https://www-users.cse.umn.edu/~zhang089/) and Prof. [Z. Morley Mao](https://web.eecs.umich.edu/~zmao/). Previously, I was an undergrduate student at the [Lahore University of Management Sciences](https://lums.edu.pk/) majoring in Computer Science, where I had a great time studying cellular networks and congestion control under the supervision of Prof. [Zafar Ayyub Qazi](https://web.lums.edu.pk/~zafar/).
-
-
-<span style="color:red;font-style:italic;"> \*** I am looking for Summer 2025 internships. Please reach out at ahmadhas@usc.edu with any opportunities. Thank you! \*** </span>
