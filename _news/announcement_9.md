@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-07-20 00:00:00-0100
+date: 2025-08-22 00:00:00-0100
 inline: true
 ---
 
-Our Habitus work led by [Anlan](https://zhan6841.github.io/) was accepted to NSDI'24. Wait for the details!
+Wrapped up my internship at Samsung Research America. <span style="color:red">Best intern poster runner-up!</span>
