@@ -329,6 +329,23 @@ Overall QoE improvement for application workloads and 6+ hours of channel traces
   </div>
 </div>
 
+## Collaborators
+
+This work is a collaboration between:
+
+<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin: 0.1rem 0 0.5rem 0; gap: 4rem;">
+  <div style="text-align: center;">
+    <a href="https://www.usc.edu/" target="_blank" style="text-decoration: none;">
+      <img src="/assets/img/logo-usc.png" alt="USC" style="max-width: 180px; height: auto; filter: grayscale(0%);">
+    </a>
+  </div>
+  <div style="text-align: center;">
+    <a href="https://www.hpe.com/" target="_blank" style="text-decoration: none;">
+      <img src="/assets/img/logo-hpe.png" alt="HPE" style="max-width: 180px; height: auto; filter: grayscale(0%);">
+    </a>
+  </div>
+</div>
+
 ## References
 
 ```
