@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<strong>Ph.D. Candidate</strong> @ <a href='https://www.usc.edu/'>USC</a>  <span style='font-size: 1.3em; padding: 0 0.5em;'>•</span>  <strong>Previously:</strong>  <a href='https://www.samsung.com/'>Samsung</a> / <a href='https://www.hpe.com/'>HPE</a> / <a href='https://cse.umn.edu/'>UMN</a> / <a href='https://lums.edu.pk/'>LUMS</a>  <span style='font-size: 1.3em; padding: 0 0.5em;'>"
+subtitle: "<strong>Ph.D. Candidate</strong> @ <a href='https://www.usc.edu/'>USC</a>  <span style='font-size: 1.3em; padding: 0 0.5em; vertical-align: middle;'>•</span>  <strong>Previously:</strong>  <a href='https://www.samsung.com/'>Samsung</a> / <a href='https://www.hpe.com/'>HPE</a> / <a href='https://cse.umn.edu/'>UMN</a> / <a href='https://lums.edu.pk/'>LUMS</a>"
 
 profile:
   align: right
