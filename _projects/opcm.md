@@ -173,7 +173,7 @@ _styles: >
 ## Awards & Recognition
 
 <div style="text-align: center; margin: 2rem 0;">
-  <span class="award-badge">To be announced</span>
+  <span class="award-badge">🏆 CoNEXT 2025 Best Community Award</span>
 </div>
 
 ## Demo Videos

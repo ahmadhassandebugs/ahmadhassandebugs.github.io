@@ -18,10 +18,10 @@ Hey, thanks for stopping by! 👋
 
 I am a fifth year Ph.D. student, advised by Prof. [Feng Qian](https://www-users.cse.umn.edu/~fengqian/index.html).
 
-My interest lies at the intersection of systems, networking, and machine learning. I design and evaluate cross-layer systems that optimize user experience, network performance, and device energy efficiency. By bridging large-scale measurements and foundational research with real-world engineering, my work advances the design of intelligent, adaptive, and high-performance networked systems.
+My interest lies at the intersection of systems, networking, and machine learning. I design and evaluate <strong>cross-layer</strong> systems that optimize user experience, network performance, and device energy efficiency. By bridging large-scale measurements and foundational research with real-world engineering, my work advances the design of <strong>intelligent</strong>, <strong>adaptive</strong>, and high-performance networked systems.
 
 In recent years, I have had the privilege of working closely with Prof. [Zhi-Li Zhang](https://www-users.cse.umn.edu/~zhang089/) and Prof. [Z. Morley Mao](https://web.eecs.umich.edu/~zmao/). Earlier, I completed my undergraduate studies in Computer Science at [LUMS](https://lums.edu.pk/), where I explored cellular networks and congestion control under the guidance of Prof. [Zafar Ayyub Qazi](https://web.lums.edu.pk/~zafar/).
 
-<div style="background: #f8f9fa; color: #495057; padding: 0.75rem 1.25rem; border: 2px solid #dee2e6; border-left: 4px solid #6c757d; border-radius: 6px; margin: 2rem 0; margin-right: 35%; font-size: 0.95rem; line-height: 1.5;">
+<div style="background: var(--global-card-bg-color); color: var(--global-text-color); padding: 0.75rem 1.25rem; border: 2px solid var(--global-divider-color); border-left: 4px solid var(--global-theme-color); border-radius: 6px; margin: 2rem 0; margin-right: 35%; font-size: 0.95rem; line-height: 1.5;">
   <strong>🎓 Graduating Spring'26</strong> — I am open to full-time opportunities in industry.
 </div>
