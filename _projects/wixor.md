@@ -137,6 +137,129 @@ _styles: >
   .innovation-item:last-child {
     margin-bottom: 0;
   }
+  .timeline-container {
+    position: relative;
+    padding: 3rem 1rem;
+    margin: 3rem 0;
+    width: 100%;
+  }
+  .timeline-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+  .timeline-line {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+    height: 3px;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    transform: translateY(-50%);
+    z-index: 1;
+    border-radius: 2px;
+  }
+  .timeline-items {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 0 2%;
+  }
+  .timeline-item {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    padding: 0 0.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .timeline-item.top {
+    padding-bottom: 90px;
+  }
+  .timeline-item.top .timeline-content {
+    margin-bottom: 0.75rem;
+  }
+  .timeline-item.top .timeline-dot {
+    margin: 0.5rem auto;
+  }
+  .timeline-item.top .timeline-date {
+    margin-top: 0.5rem;
+  }
+  .timeline-item.bottom {
+    padding-top: 90px;
+  }
+  .timeline-item.bottom .timeline-date {
+    margin-bottom: 0.5rem;
+  }
+  .timeline-item.bottom .timeline-dot {
+    margin: 0.5rem auto;
+  }
+  .timeline-item.bottom .timeline-content {
+    margin-top: 0.75rem;
+  }
+  .timeline-dot {
+    width: 18px;
+    height: 18px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: 3px solid var(--global-bg-color);
+    border-radius: 50%;
+    margin: 0.5rem auto;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4), 0 0 0 2px rgba(102, 126, 234, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-shrink: 0;
+  }
+  .timeline-dot:hover {
+    transform: scale(1.3);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.6), 0 0 0 4px rgba(102, 126, 234, 0.2);
+  }
+  .timeline-date {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #667eea;
+    margin: 0.25rem 0;
+    white-space: nowrap;
+  }
+  .timeline-content {
+    font-size: 0.85rem;
+    color: var(--global-text-color);
+    line-height: 1.4;
+    background: linear-gradient(135deg, var(--global-card-bg-color) 0%, rgba(102, 126, 234, 0.05) 100%);
+    padding: 0.6rem 0.5rem;
+    border-radius: 10px;
+    border: 1.5px solid rgba(102, 126, 234, 0.2);
+    margin: 0.5rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    max-width: 120px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .timeline-content:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+    border-color: rgba(102, 126, 234, 0.4);
+  }
+  @media (max-width: 768px) {
+    .timeline-content {
+      font-size: 0.75rem;
+      padding: 0.5rem 0.4rem;
+      max-width: 90px;
+      min-height: 45px;
+    }
+    .timeline-date {
+      font-size: 0.7rem;
+    }
+  }
 ---
 
 <div class="hero-section">
@@ -175,6 +298,51 @@ _styles: >
 <div style="text-align: center; margin: 2rem 0;">
   <span class="award-badge">🏆 CoNEXT 2024 Best Paper Runner-Up</span>
   <span class="award-badge">📢 Presented at HPE Tech Con 2024</span>
+</div>
+
+## Project Timeline
+
+<div class="timeline-container">
+  <div class="timeline-wrapper">
+    <div class="timeline-line"></div>
+    <div class="timeline-items">
+      <div class="timeline-item top">
+        <div class="timeline-content">Project started</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">June 2023</div>
+      </div>
+      <div class="timeline-item bottom">
+        <div class="timeline-date">October 2023</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">Initial measurements completed</div>
+      </div>
+      <div class="timeline-item top">
+        <div class="timeline-content">Preliminary idea presented at HPE Tech Con</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">March 2024</div>
+      </div>
+      <div class="timeline-item bottom">
+        <div class="timeline-date">June 2024</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">Initial prototype complete</div>
+      </div>
+      <div class="timeline-item top">
+        <div class="timeline-content">Presented at CoNEXT</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">December 2024</div>
+      </div>
+      <div class="timeline-item bottom">
+        <div class="timeline-date">May 2025</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">Small-scale deployment at USC</div>
+      </div>
+      <div class="timeline-item top">
+        <div class="timeline-content">Data collection on testbed</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Ongoing</div>
+      </div>
+    </div>
+  </div>
 </div>
 
 ## Demo Videos
