@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<strong>Ph.D. Candidate</strong> @ <a href='https://www.usc.edu/'>USC</a>  <span style='font-size: 1.3em; padding: 0 0.5em; vertical-align: middle;'>•</span>  <strong>Previously:</strong>  <a href='https://www.samsung.com/'>Samsung</a> / <a href='https://www.hpe.com/'>HPE</a> / <a href='https://cse.umn.edu/'>UMN</a> / <a href='https://lums.edu.pk/'>LUMS</a>"
+subtitle: "<strong>Senior SWE</strong> @ <a href='https://www.tiktok.com/'>TikTok</a>  <span style='font-size: 1.3em; padding: 0 0.5em; vertical-align: middle;'>•</span>  <strong>Previously:</strong>  <a href='https://www.samsung.com/'>Samsung</a> / <a href='https://www.hpe.com/'>HPE</a> / <a href='https://www.usc.edu/'>USC</a> / <a href='https://cse.umn.edu/'>UMN</a> / <a href='https://lums.edu.pk/'>LUMS</a>"
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: profile_pic_2.jpg
   image_circular: false # crops the image to make it circular
 
 news: true # includes a list of news items
@@ -14,14 +14,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey, thanks for stopping by! 👋
+At TikTok, I'm on the **AI Governance** team. We build algorithms and infrastructure for offline **evaluation** and online **alignment** of fairness-related behavior in large vision, language, and multimodal models. I work on both the ML/algo side and the systems/backend side.
 
-I am a fifth year Ph.D. student, advised by Prof. [Feng Qian](https://www-users.cse.umn.edu/~fengqian/index.html).
-
-My interest lies at the intersection of systems, networking, and machine learning. I design and evaluate <strong>cross-layer</strong> systems that optimize user experience, network performance, and device energy efficiency. By bridging large-scale measurements and foundational research with real-world engineering, my work advances the design of <strong>intelligent</strong>, <strong>adaptive</strong>, and high-performance networked systems.
-
-In recent years, I have had the privilege of working closely with Prof. [Zhi-Li Zhang](https://www-users.cse.umn.edu/~zhang089/) and Prof. [Z. Morley Mao](https://web.eecs.umich.edu/~zmao/). Earlier, I completed my undergraduate studies in Computer Science at [LUMS](https://lums.edu.pk/), where I explored cellular networks and congestion control under the guidance of Prof. [Zafar Ayyub Qazi](https://web.lums.edu.pk/~zafar/).
-
-<div style="background: var(--global-card-bg-color); color: var(--global-text-color); padding: 0.75rem 1.25rem; border: 2px solid var(--global-divider-color); border-left: 4px solid var(--global-theme-color); border-radius: 6px; margin: 2rem 0; margin-right: 35%; font-size: 0.95rem; line-height: 1.5;">
-  <strong>🎓 Graduating Spring'26</strong> — I am open to full-time opportunities in industry.
-</div>
+I earned my Ph.D. at USC, advised by Prof. [Feng Qian](https://www-users.cse.umn.edu/~fengqian/index.html). My graduate research combined **systems, networking, and machine learning**. I designed and evaluated cross-layer systems that trade off user experience, network performance, and device energy. Most of that work was anchored in large-scale measurements, with an emphasis on systems that would survive real deployment.
