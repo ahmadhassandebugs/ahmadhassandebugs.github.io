@@ -20,4 +20,6 @@ Open http://localhost:8000. The generated `dist/` folder is the deployable site.
 - CV: `assets/pdf/ahmad_hassan_cv.pdf`.
 - Styling: `style.css`.
 
-The previous al-folio sources remain as an archive, but are not used by this build. The deployment workflow builds `dist/` and publishes to the existing `gh-pages` branch on pushes to `main` or `master`. Pull requests build without deploying. Existing GitHub Pages branch settings are retained.
+Retired al-folio templates and tooling were removed; earlier versions remain in Git history. The deployment workflow builds `dist/` and publishes to the existing `gh-pages` branch on pushes to `main` or `master`. Pull requests build without deploying. Existing GitHub Pages branch settings are retained.
+
+Stylesheets use content-hashed filenames, so each style update receives a fresh browser cache entry. Personal research assets and their existing URLs are retained.

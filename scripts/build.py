@@ -1,12 +1,14 @@
 """Build the portfolio with Python 3's standard library only."""
 from pathlib import Path
-import re, html, shutil, datetime
+import re, html, shutil, datetime, hashlib
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'dist'
 if OUT.exists(): shutil.rmtree(OUT)
 OUT.mkdir()
 shutil.copytree(ROOT/'assets', OUT/'assets')
 (OUT/'.nojekyll').touch()
+STYLE_FILE='style.'+hashlib.sha256((ROOT/'style.css').read_bytes()).hexdigest()[:12]+'.css'
+shutil.copyfile(ROOT/'style.css', OUT/STYLE_FILE)
 def esc(s): return html.escape(str(s), quote=True)
 def source(p):
     text=p.read_text(encoding="utf-8"); parts=text.split('---',2)
@@ -33,7 +35,7 @@ def markdown(s):
 def page(title,body,path='',active='home',desc='Ahmad Hassan — Senior Software Engineer at TikTok. Applied AI, systems, and networking.'):
     dest=OUT/path/'index.html'; dest.parent.mkdir(parents=True,exist_ok=True)
     nav=''.join(f'<a {"aria-current=page" if active==key else ""} href="{url}">{label}</a>' for key,url,label in [('home','/','About'),('blog','/blog/','Blog'),('pub','/#publications','Publications'),('cv','/assets/pdf/ahmad_hassan_cv.pdf','CV')])
-    dest.write_text(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · Ahmad Hassan</title><meta name="description" content="{esc(desc)}"><link rel="stylesheet" href="/style.css"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231d514a'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='serif' font-size='38' fill='white'%3Ea%3C/text%3E%3C/svg%3E"></head><body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="/">ahmad hassan<span>.</span></a><nav aria-label="Main navigation">{nav}</nav></header><main id="main">{body}</main><footer><span>Ahmad Hassan</span><span>Built simply. Written personally.</span><a href="mailto:ahmadhassansandhu@gmail.com">Get in touch ↗</a></footer></body></html>''', encoding="utf-8")
+    dest.write_text(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · Ahmad Hassan</title><meta name="description" content="{esc(desc)}"><link rel="stylesheet" href="/{STYLE_FILE}"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231d514a'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='serif' font-size='38' fill='white'%3Ea%3C/text%3E%3C/svg%3E"></head><body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="/">ahmad hassan<span>.</span></a><nav aria-label="Main navigation">{nav}</nav></header><main id="main">{body}</main><footer><span>Ahmad Hassan</span><span>Built simply. Written personally.</span><a href="mailto:ahmadhassansandhu@gmail.com">Get in touch ↗</a></footer></body></html>''', encoding="utf-8")
 posts=[]
 for p in sorted((ROOT/'_posts').glob('*.md'),reverse=True):
     meta,body=source(p)
@@ -85,6 +87,6 @@ for p in (ROOT/'_projects').glob('*.md'):
 page('Projects','<section class="blog-head"><h1>Projects<span>.</span></h1><p><a href="/projects/opcm/">OPCM</a> · <a href="/projects/wixor/">Wixor</a></p></section>','projects')
 page('Page not found','<section class="blog-head"><h1>Page not found.</h1><p><a href="/">Return to the homepage →</a></p></section>','404')
 shutil.copyfile(OUT/'404/index.html',OUT/'404.html')
-shutil.copyfile(ROOT/'style.css', OUT/'style.css')
+shutil.copyfile(ROOT/'robots.txt', OUT/'robots.txt')
 if (ROOT/'CNAME').exists(): shutil.copyfile(ROOT/'CNAME',OUT/'CNAME')
 print(f'Built {len(list(OUT.rglob("*.html")))} pages; {len(pubs)} selected publications; {len(news)} news items.')
